@@ -5,7 +5,12 @@ app = Flask(__name__)
 
 @app.route('/')
 def hello_world():
-    return 'Hello World!'
+    return 'Hedgehog Street'
+
+
+@app.route('/test/')
+def hello_world_test():
+    return 'Hedgehog Street 2'
 
 
 if __name__ == '__main__':
